@@ -1,0 +1,33 @@
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.purpleLine {
+    border: 5px solid #A459A9;
+}
+
+header {
+    display: flex;
+    padding: 40px;
+    text-align: left;
+    background: #13293d;
+    color: #98d0f7;
+    background-image: url("../images/Header-Background.jpg");
+  }
+
+  nav {
+    display: flex;
+    margin-left: auto; 
+    background-color: rgb(164, 89, 169, .5);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+  }
+  
+  nav a {
+    color: #98d0f7;
+    font-size: 1.5em;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
