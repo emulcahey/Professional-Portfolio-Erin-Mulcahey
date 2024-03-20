@@ -31,3 +31,71 @@ header {
     text-decoration: none;
     text-align: center;
   }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-box {
+  flex: 0 0 30%; /* 30% width */
+  background-color: lightblue;
+}
+
+.right-box {
+  flex: 0 0 70%; /* 70% width */
+  background-color: lightcoral;
+}
+
+.about-title-section {
+  height: 100px; /* Set the height of each section */
+  margin: 10px;
+}
+
+.work-title-section {
+  height: 320px; /* Set the height of each section */
+  margin: 10px;
+}
+
+.contact-title-section {
+  height: 100px; /* Set the height of each section */
+  margin: 10px;
+}
+
+.about-box {
+  flex: stretch;
+  height: 100px;
+  background-color: #f4daa6;
+  margin: 10px;
+}
+
+.top-grid-box {
+    flex: stretch;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  justify-content: start; /* Left alignment */
+  margin-right: 10px;
+}
+
+.grid-item {
+    flex: stretch;
+    height: 100px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.contact-box {
+  flex: stretch;
+  height: 100px;
+  background-color: #e6add6;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
