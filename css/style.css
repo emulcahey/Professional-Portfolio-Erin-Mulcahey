@@ -2,7 +2,7 @@ html {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.purpleLine {
+.purpleLineHoriz {
     border: 5px solid #A459A9;
 }
 
@@ -11,7 +11,7 @@ header {
     padding: 40px;
     text-align: left;
     background: #13293d;
-    color: #98d0f7;
+    color: #dceefc;
     background-image: url("../images/Header-Background.jpg");
   }
 
@@ -25,7 +25,7 @@ header {
   }
   
   nav a {
-    color: #98d0f7;
+    color: #dceefc;
     font-size: 1.5em;
     padding: 14px 20px;
     text-decoration: none;
@@ -38,64 +38,54 @@ header {
 }
 
 .left-box {
-  flex: 0 0 30%; /* 30% width */
-  background-color: lightblue;
+  flex: 0 0 20%; /* 30% width */
 }
 
 .right-box {
-  flex: 0 0 70%; /* 70% width */
-  background-color: lightcoral;
+  flex: 0 0 80%; /* 70% width */
 }
 
-.about-title-section {
-  height: 100px; /* Set the height of each section */
+.titleCardHeightLarge{
+  height: 450px;
+}
+
+.titleCardHeightSmall{
+  height: 130px;
+}
+
+.title-section{
   margin: 10px;
+  border-right: 5px solid #A459A9;
+  text-align: right;
+  padding: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
-.work-title-section {
-  height: 320px; /* Set the height of each section */
-  margin: 10px;
-}
-
-.contact-title-section {
-  height: 100px; /* Set the height of each section */
-  margin: 10px;
-}
-
-.about-box {
+.item-Box{
   flex: stretch;
-  height: 100px;
+  height: 150px;
   background-color: #f4daa6;
+}
+
+.boxMargin-10{
   margin: 10px;
 }
 
-.top-grid-box {
-    flex: stretch;
-    height: 100px;
-    background-color: lightblue;
-    margin: 10px;
+.boxMargin-bottomLeft-10{
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.boxMargin-bottomLeftRight-10{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
   justify-content: start; /* Left alignment */
-  margin-right: 10px;
-}
-
-.grid-item {
-    flex: stretch;
-    height: 100px;
-    background-color: lightgreen;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-.contact-box {
-  flex: stretch;
-  height: 100px;
-  background-color: #e6add6;
-  margin-bottom: 10px;
-  margin-left: 10px;
   margin-right: 10px;
 }
