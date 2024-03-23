@@ -2,10 +2,6 @@ html {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.purpleLineHoriz {
-    border: 5px solid #A459A9;
-}
-
 header {
     display: flex;
     padding: 40px;
@@ -32,9 +28,18 @@ header {
     text-align: center;
   }
 
+.purpleLineHoriz {
+  border: 5px solid #A459A9;
+}
+
 #profilePic{
   height:100%;
   float:left;
+}
+
+.workImage{
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -67,7 +72,27 @@ header {
   font-weight: bold;
 }
 
+.about-Box{
+  flex: stretch;
+  flex-wrap: wrap;
+  height: 150px;
+  background-color: #f4daa6;
+}
+
 .item-Box{
+  flex: stretch;
+  flex-wrap: wrap;
+  height: 150px;
+  background-color: #f4daa6;
+  opacity: 0.67;
+  transition: opacity 0.5s;
+}
+
+.item-Box:hover{
+  opacity: 0.99;
+}
+
+.contact-Box{
   flex: stretch;
   flex-wrap: wrap;
   height: 150px;
