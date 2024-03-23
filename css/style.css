@@ -14,7 +14,7 @@ header {
   nav {
     display: flex;
     margin-left: auto; 
-    background-color: rgb(164, 89, 169, .5);
+    background-color: #a459a980;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
@@ -37,6 +37,20 @@ header {
   float:left;
 }
 
+.workLabels{
+  display: flex;
+  background-color: #a459a9c0;
+  align-items: center;
+  border-radius: 50px;
+  width: max-content;
+  padding: 10px;
+  color:#dceefc;
+  position: relative;
+  left: 15px;
+  top: 80px;
+  font-weight: bold;
+}
+
 .workImage{
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,11 +62,13 @@ header {
 }
 
 .left-box {
-  flex: 0 0 20%; /* 30% width */
+  flex: 0 0 20%;
+  color:#03034b
 }
 
 .right-box {
-  flex: 0 0 80%; /* 70% width */
+  flex: 0 0 80%;
+  color:#03034b
 }
 
 .titleCardHeightLarge{
@@ -76,14 +92,13 @@ header {
   flex: stretch;
   flex-wrap: wrap;
   height: 150px;
-  background-color: #f4daa6;
+  font-size: 1.2em;
 }
 
 .item-Box{
   flex: stretch;
   flex-wrap: wrap;
   height: 150px;
-  background-color: #f4daa6;
   opacity: 0.67;
   transition: opacity 0.5s;
 }
@@ -96,7 +111,7 @@ header {
   flex: stretch;
   flex-wrap: wrap;
   height: 150px;
-  background-color: #f4daa6;
+  font-size: 1.2em;
 }
 
 .boxMargin-10{
