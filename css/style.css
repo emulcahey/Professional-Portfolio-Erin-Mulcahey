@@ -32,9 +32,14 @@ header {
     text-align: center;
   }
 
+#profilePic{
+  height:100%;
+  float:left;
+}
+
 .container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .left-box {
@@ -64,6 +69,7 @@ header {
 
 .item-Box{
   flex: stretch;
+  flex-wrap: wrap;
   height: 150px;
   background-color: #f4daa6;
 }
