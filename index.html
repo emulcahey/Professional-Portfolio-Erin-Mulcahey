@@ -7,41 +7,46 @@
     <title>Document</title>
 </head>
 <body>
-
+    <!-- Header will hold name and navigation bar -->
     <header>
         <span><h1>Erin Mulcahey</h1></span>
-
         <nav>
         <a href="#about">About Me</a>
         <a href="#work">My Work</a>
         <a href="#contact">Contact Me</a>
         <!-- <a href="#">Resume</a> -->
         </nav>
-
     </header>
+
+    <!-- A line to visually help divide the header from the rest of the page -->
     <hr class="purpleLineHoriz">
 
-    <div class="container">
-        <div class="left-box">
+    <!-- One large flex container    -->
+    <container class="container">
+        <!-- The left-box holds the titles of the sections on the right -->
+        <section class="left-box">
             <div class="title-section titleCardHeightSmall">About Me </div>
             <div class="title-section titleCardHeightLarge">Work </div>
             <div class="title-section titleCardHeightSmall">Contact Me </div>
-        </div>
-        <div class="right-box">
-            <div id="about" class="about-Box boxMargin-10">
+        </section>
+        <!-- The Right-box holds all the boxes that will show the content -->
+        <section class="right-box">
+            <!-- The about me section has a spot for a profile pic or icon along with description of me -->
+            <article id="about" class="about-Box boxMargin-10">
                 <img id="profilePic" src="images/avatarimage.png" alt="Generic blank cartoon profice picture icon.">
                 My name is Erin Mulcahey and I'm in the process of becoming a full-stack developer. I currently hold the senior legal assistant job at a law firm in Minneapolis, Minnesota. I have successully managed multiple previous Lead roles and have extensive experience with customer service. 
                 These positions were in multiple fields, including coaching in gymnastics, restaurant serving staff, and managing multiple areas of a travel plaza.                 
                 I would like to become a full-stack developer and obtain a job where I can use the related skills. I would like to continue developing my coding skills even after obtaining the standard certification.
                 I love to explore the outdoors and have a goal of some day hiking the Appalachian Trail.
-
-            </div>
+            </article>
+            <!-- The main box showing the most important piece of work is bigger than the next 4 -->
             <a href="https://emulcahey.github.io/prework-study-guide/">
                 <div class="item-Box boxMargin-10 workImage" style="background-image: url('images/library-shelves.jpg');" alt="library shelves full of books">
                 <p class="workLabels">BootCamp Study Guide</p>
                 </div>
             </a>
-            <div class="grid-container">
+            <!-- This holds the 4 remaining boxes for pieces of work, there are generic pictures holding the spots of projects yet to come -->
+            <section class="grid-container">
                 <div class="item-Box boxMargin-bottomLeft-10 workImage" style="background-image: url('images/Cube-Background.jpg');" alt="3d white cubes abstract background">
                     <p class="workLabels">Under Development</p>
                 </div>
@@ -54,14 +59,15 @@
                 <div class="item-Box boxMargin-bottomLeft-10 workImage" style="background-image: url('images/Hegaxon-Background.jpg');" alt="3d Hexagon background">
                     <p class="workLabels">Under Development</p>
                 </div>
-            </div>
-            <div id="contact" class="contact-Box boxMargin-bottomLeftRight-10">
+            </section>
+            <!-- This is the contact me section with contact information -->
+            <footerv id="contact" class="contact-Box boxMargin-bottomLeftRight-10">
                 <p>My name is Erin Mulcahey</p>
                 <p>You can email me at genericemail@email.com</p>
                 <p>My LinkedIn is [link to be added]</p>
-            </div>
-        </div>
-    </div>
+            </footer>
+        </section>
+    </container>
 
 </body>
 </html>
