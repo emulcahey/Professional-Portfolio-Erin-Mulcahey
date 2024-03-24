@@ -93,6 +93,7 @@ header {
   flex: stretch;
   flex-wrap: wrap;
   height: 150px;
+  overflow-y:auto;
 }
 
 .item-Box{
@@ -133,4 +134,38 @@ header {
   grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
   justify-content: start; /* Left alignment */
   margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .left-box {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    padding: 5px;
+    text-align: left;
+    font-size: 1em;
+    background: #13293d;
+    color: #dceefc;
+    background-image: url("../images/Header-Background.jpg");
+  }
+
+  nav {
+    display: flex;
+    margin-left: auto; 
+    background-color: #a459a980;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    max-height: 40px;
+  }
+
+  nav a {
+    color: #dceefc;
+    font-size: 1em;
+    padding: 7px 10px;
+    text-decoration: none;
+    text-align: center;
+  }
 }
