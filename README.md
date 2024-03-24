@@ -15,6 +15,8 @@ The second section houses five of my top projects that I have made/will make. Th
 The third section is a contact me sections and lists different ways someone can contact me.
 Link to deployed application: https://emulcahey.github.io/Professional-Portfolio-Erin-Mulcahey/
 
+![Screen shot of the deployed application.](images/Portfolio-Screen-Shot.png)
+
 ## Credits
 
 N/A
