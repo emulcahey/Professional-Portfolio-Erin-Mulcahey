@@ -13,6 +13,7 @@ N/A
 The top section is an about me section. it has a short description of me, my background, my favorite activities. It's used to give a potential employer an idea of the person I am.
 The second section houses five of my top projects that I have made/will make. This allows me to showcase them to a potential employer.
 The third section is a contact me sections and lists different ways someone can contact me.
+Link to deployed application: https://emulcahey.github.io/Professional-Portfolio-Erin-Mulcahey/
 
 ## Credits
 
